@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./dynamic.css">
+    <link rel="stylesheet" href="./newuser.css">
+</head>
+<body>
+    <div class="container1">
+        <div id="greet"></div>
+        <div id="image"><img src="newuser.png" alt="transaction" ></div>
+        <div id="cred">
+            <input type="text" id="user" name="fname" placeholder="USER" >
+            <input type="password"  id="pin" name="fname" placeholder="4-digit" pattern="\d{4}">
+            <div id="arrow"><img src="right-arrow.png" alt="right-arrow"  ></div>
+        </div>
+    </div>
+    <div class="container2">
+        <div id="cont1">
+            <div id="cb">
+                Current Balance
+            </div>
+            <div id="db">75000</div>
+        </div>
+        <div id="cont2">
+            <div id="trans"></div>
+            <div id="transdetail">
+                <div id="transfer">
+                    <div id="tmoney">Transfer Money</div>
+                    <div id="tdetail">
+                        <input type="text" id="tid" name="tid" placeholder="TRANSFER_ID">
+                        <input type="text" id="tamount" name="tamount" placeholder="AMOUNT">
+                        <div id="tarrow"><img id="timgarr" src="right-arrow.png" alt="right-arrow"  ></div>
+                    </div>
+                </div>
+                <div id="deposit">
+                    <div id="dmoney">Deposit Money</div>
+                    <div id="ddetail">
+                        <input type="text" id="damount" name="damount" placeholder="AMOUNT">
+                        <div id="darrow"><img id="dimgarr" src="right-arrow.png" alt="right-arrow"  ></div>
+                    </div>
+                </div>
+                <div id="close">
+                    <div id="caccount">Delete Account</div>
+                    <div id="cdetail">
+                        <input type="text" id="cid" name="cid" placeholder="ACCOUNT_ID">
+                        <input type="password" id="cpin" name="cpin" placeholder="4-digit" pattern="\d{4}">
+                        <div id="carrow"><img id="cimgarr" src="right-arrow.png" alt="right-arrow"  ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cont3">
+            <div id="in"></div>
+            <div id="out"></div>
+            <div id="logged"></div>
+        </div>
+    </div>
+    <div id="container3">
+        
+        <div class="newdiv">
+            <label for="name">Name:</label>
+            <input type="text" class="new" id="newname" name="name" placeholder="e.g: Nobin">
+        </div>
+        
+        <div class="newdiv">
+            <label for="userId">User ID:</label>
+            <input type="text" class="new" id="newuserId" name="userId" placeholder="e.g:nobin">
+        </div>
+        
+        <div class="newdiv">
+            <label for="pin">PIN:</label>
+            <input type="password" class="new" id="newpin" name="pin" pattern="\d{4}" placeholder="4-digit">
+        </div>
+
+        <div class="newdiv">
+           <div id="register">Register</div>
+        </div>
+        
+    </div>
+    <script type="module" src="script.js"></script>
+</html>

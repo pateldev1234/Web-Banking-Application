@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center ;
+
+    background-color: rgba(199, 206, 209, 0.808);
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+.container1{
+    width: 100% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#greet{
+    width:30%;
+    /* border: 1px solid black; */
+    text-align:justify;
+    padding: 10px;
+}
+#image{
+    width:40%;
+    /* border: 1px solid black; */
+
+    display: flex;
+    justify-content: center;
+}
+
+#cred{
+    width:30%;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#user{
+    width:40%;
+    margin-left: 10px;
+    border-radius: 20px;
+    /* border: 1px solid whitesmoke; */
+    color: #888; 
+    font-style: italic; 
+    text-align: center;
+
+}
+
+#pin{
+    width:40%;
+    margin-left: 10px;
+    border-radius: 20px;
+    /* border: 1px solid whitesmoke; */
+    color: #888; 
+    font-style: italic; 
+    text-align: center;
+}
+
+#arrow{
+    width:20%;
+    margin-left: 10px;
+
+}
+input::placeholder {
+      color: #888; /* Set the color of the placeholder text */
+      font-style: italic; /* Set the font style of the placeholder text */
+      text-align: center;
+      font-size: 15px;
+      
+    }
+
+
+.container2{
+    width: 60%;
+    /* border: 2px solid bisque; */
+    margin-top: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    
+}
+
+#cont1{
+    width:100%;
+    /* border: 2px solid rgb(19, 15, 10); */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#cb{
+    width: 50%;
+    /* border: 2px solid blanchedalmond; */
+    margin-right: 10px;
+    text-align: left;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#db{
+    width: 50%;
+    /* border: 2px solid blanchedalmond; */
+    text-align: right;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#cont2{
+    width:100%;
+    /* border: 2px solid rgb(19, 15, 10); */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+#trans{
+    width: 50%;
+    margin-right: 10px;
+    /* border: 2px solid rgb(14, 14, 182); */
+    height: 300px;
+    overflow: auto; 
+    display: flex;
+    flex-direction: column;
+
+    /* width:95%; */
+
+}
+
+#transdetail{
+    width:50%;
+    /* border: 2px solid rgb(65, 21, 135); */
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#transfer{
+    width:100%;
+    background-color: rgb(237, 174, 28);
+    padding: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#tdetail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+#tid{
+    width:40%;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 157);
+    border: 0.1px solid rgb(209, 207, 157);
+    opacity: 0.1px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+#tamount{
+    width:40%;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 157);
+    border: 0.1px solid rgb(209, 207, 157);
+    opacity: 0.1px;
+    border-radius: 10px;
+    text-align: center;
+  
+}
+
+#tarrow{
+    width:20%;
+    margin-left: 10px;
+
+    background-color: rgb(248, 252, 255);
+    border: 1px solid whitesmoke;
+    opacity: 0.1px;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#deposit{
+    width:100%;
+    border-radius: 5px;
+
+    margin-top: 10px;
+    background-color: rgb(123, 205, 91);
+    padding: 10px;
+}
+
+#ddetail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+#damount{
+    width:40%;
+    margin-left: 10px;
+    background-color: rgb(214, 251, 204);
+    border: 0.1px solid rgb(214, 251, 204);
+    opacity: 0.1px;
+    border-radius: 10px;
+    text-align: center;
+  
+}
+
+#darrow{
+    width:20%;
+    margin-left: 10px;
+
+    background-color: rgb(248, 252, 255);
+    border: 1px solid whitesmoke;
+    opacity: 0.1px;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: center;
+}
+#close{
+    width:100%;
+    background-color: rgb(215, 94, 112);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#cdetail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+
+}
+
+#cid{
+    width:40%;
+    margin-left: 10px;
+    background-color: rgb(247, 225, 225);
+    border: 0.1px solid rgb(247, 225, 225);
+    opacity: 0.1px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+#cpin{
+    width:40%;
+    margin-left: 10px;
+    background-color: rgb(247, 225, 225);
+    border: 0.1px solid rgb(247, 225, 225);
+    opacity: 0.1px;
+    border-radius: 10px;
+    text-align: center;
+  
+}
+
+#carrow{
+    width:20%;
+    margin-left: 10px;
+
+    background-color: rgb(248, 252, 255);
+    border: 1px solid whitesmoke;
+    opacity: 0.1px;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#cont3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+#in{
+    width:25%;
+    margin-left: 10px;
+    color: rgb(107, 199, 89);
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#out{
+    width:25%;
+    margin-left: 10px;
+    color: rgb(228, 123, 96);
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#logged{
+    width:50%;
+    margin-left: 10px;
+    color: rgb(72, 63, 63);
+    text-align: right;
+}
+

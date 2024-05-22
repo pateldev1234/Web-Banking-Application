@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* #outerdiv{
+    display: flex;
+    flex-direction: column;
+
+    width:95%;
+
+} */
+
+.innerdiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    border: 1px solid rgb(197, 180, 180);
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+
+    
+}
+
+.dynamicdrawl{
+    width: 33%;
+    /* border: 0.5px solid rgb(239, 97, 97);
+    border-radius: 5px; */
+
+    
+    text-align: center;
+    color: rgb(239, 97, 97);
+}
+.dynamicdep{
+    width: 33%;
+    /* border: 0.5px solid rgb(140, 243, 142);
+    border-radius: 5px; */
+
+    text-align: center;
+    color: rgb(140, 243, 142);
+}

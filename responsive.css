@@ -1,0 +1,49 @@
+@media screen and (max-width:800px){
+    .container2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:670px){
+    body{
+        font-size: 15px;
+        padding: 5px;
+    }
+    #cb{
+        font-size: 20px;
+    }
+    #db{
+        font-size: 20px;
+    }
+
+    input::placeholder {
+      font-size: 10px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .container1{
+        flex-wrap: wrap;
+    }
+    #greet{
+        width: 60%;
+        font-size: 15px;
+    }
+    #image{
+        witdh:40%;
+    }
+    #cred{
+        width:100%;
+    }
+    #cont2{
+        flex-wrap: wrap;
+    }
+    #trans{
+        width:100%;
+    }
+    #transdetail{
+        width:100%;
+    }
+   
+
+}
